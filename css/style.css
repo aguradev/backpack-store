@@ -232,7 +232,7 @@ nav .navbar-nav li a {
 .alva-product {
   height: 450px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/Asset/Single-product/Alva-product/Background-alva.png);
+    url(/Asset/Single-product/Alva-product/Background-alva.jpg);
   background-position: center;
   background-size: cover;
 }
