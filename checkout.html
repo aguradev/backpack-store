@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Playfair+Display:700&display=swap"
+        rel="stylesheet">
+
+    <!-- Style Custom -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bagpack Store</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #09404A;;">
+        <div class="container py-3">
+            <a class="navbar-brand text-uppercase logo-white" href="#">bag-pack</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav pl-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link pr-2" href="#"><i class="fas fa-user"></i></i><span
+                                style="padding-left: 5px; font-size: 14px; vertical-align: middle;">Login</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-2" href="#"><i class="fas fa-shopping-cart"></i><span
+                                style="padding-left: 5px; font-size: 14px; vertical-align: middle;">Cart</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-2" href="#"><i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- checkout breadcrumb -->
+    <section class="checkout-breadcrumb" id="checkout-breadcrumb">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 text-center">
+                    <h2 class="text-uppercase">checkout</h2>
+                    <nav class="breadcrumb bg-transparent justify-content-center mt-3">
+                        <a class="breadcrumb-item text-decoration-none font-weight-bold text-white"
+                            href="index.html">Home</a>
+                        <a class="breadcrumb-item text-decoration-none font-weight-bold text-white" href="#">Shopping
+                            Bag</a>
+                        <span class="breadcrumb-item active text-white">Checkout</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end checkout breadcrumb -->
+
+    <!-- order item & shipping details -->
+    <section id="order-data" class="order-data py-5">
+        <div class="container checkout">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <!-- order-item -->
+                    <div class="card border-0 p-3 pt-4">
+                        <div class="card-header d-sm-flex justify-content-between align-items-center">
+                            <h4 class="card-title">order item</h4>
+                            <span><a href="#">Edit Shopping Cart</a></span>
+                        </div>
+                        <div class="card-body pt-0">
+                            <div class="row my-2 align-items-center justify-content-between">
+                                <div class="col-12 col-md-6 d-flex align-items-center">
+                                    <img src="Asset/checkout/Item-Product-zema-black.png" alt="">
+                                    <div class="ml-3">
+                                        <h5>Zema Blackpack Black</h5>
+                                        <p>Product : <a href="#" class="link-category">Zema Backpack</a></p>
+                                        <span class="quantity">Quantity : 2 Items</span>
+                                        <p class="text-success cost d-md-none d-block">idr.530.000</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-right d-md-block d-none">
+                                    <p class="text-success cost">idr.530.000</p>
+                                </div>
+                            </div>
+                            <hr class="list-item">
+                            <div class="row my-2 align-items-center justify-content-between">
+                                <div class="col-12 col-md-6 d-flex align-items-center">
+                                    <img src="Asset/checkout/Item-product-navy.png" alt="">
+                                    <div class="ml-3">
+                                        <h5>Alva Backpack Navy</h5>
+                                        <p>Product : <a href="#" class="link-category">Alva Backpack</a></p>
+                                        <span class="quantity">Quantity : 2 Items</span>
+                                        <p class="text-success cost d-md-none d-block">idr.530.000</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 text-right d-md-block d-none">
+                                    <p class="text-success cost">idr.530.000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer py-3 px-md-5">
+                            <div class="row align-items-baseline justify-content-between mt-2">
+                                <div class="col-4">
+                                    <h5>Total items</h5>
+                                </div>
+                                <div class="col-4">
+                                    <p class="text-right text-total">idr.2.500.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end-order-item -->
+                    <div class="card border-0 p-4 mt-5 billing-info">
+                        <div class="card-header">
+                            <h4 class="card-title">Billing Info</h4>
+                            <p class="card-subtitle">plese enter your billing info</p>
+                        </div>
+                        <div class="card-body">
+                            <form action="#">
+                                <div class="form-row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="firstname">First Name</label>
+                                        <input type="text" name="firstname" id="firstname" class="form-control"
+                                            placeholder="Input Your First Name">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label for="lastname">Last Name</label>
+                                        <input type="text" name="lastname" id="lastname" class="form-control"
+                                            placeholder="Input Your Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" name="email" id="email" class="form-control"
+                                            placeholder="Input Your Email Address">
+                                        <small id="emailHelp" class="form-text">We'll never share your email
+                                            with anyone else.</small>
+
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label for="numberphone">Number Phone</label>
+                                        <input type="number" name="numberphone" id="numberphone" class="form-control"
+                                            placeholder="Input Your Number Phone">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="country">Country</label>
+                                        <select id="country" class="custom-select custom-select-lg">
+                                            <option selected disabled>Select Your Country</option>
+                                            <option value="Indonesia">Indonesia</option>
+                                            <option value="Malaysia">Malaysia</option>
+                                            <option value="Thailand">Thailand</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <label for="city">City</label>
+                                        <select id="city" class="custom-select custom-select-lg">
+                                            <option selected disabled>Select Your City</option>
+                                            <option value="Denpasar">Denpasar</option>
+                                            <option value="Bandung">Bandung</option>
+                                            <option value="Surabaya">Surabaya</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Shipping Details -->
+                <div class="col-12 col-lg-4 shipping-details mt-5 mt-lg-0">
+                    <div class="card border-0 p-3">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Shipping Details</h5>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6>Total Items</h6>
+                                    <small>Order Items</small>
+                                </div>
+                                <div class="col d-flex justify-content-end align-self-center">
+                                    <p class="text-success cost">idr.2,500,000</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6>Shipping</h6>
+                                    <small>JNE Express</small>
+                                </div>
+                                <div class="col d-flex justify-content-end align-self-center">
+                                    <p class="text-success cost">idr.20,000</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6>Tax</h6>
+                                    <small>10% Tax</small>
+                                </div>
+                                <div class="col d-flex justify-content-end align-self-center">
+                                    <p class="text-success cost">idr.5,000</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6>Isurance</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end align-self-center">
+                                    <p class="text-success cost">idr.5,000</p>
+                                </div>
+                            </div>
+                            <hr class="list-item">
+                            <div class="row">
+                                <div class="col">
+                                    <h6>Total</h6>
+                                </div>
+                                <div class="col d-flex justify-content-end align-self-center">
+                                    <p class="cost-total">idr.3,500,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-block btn-checkout py-4">place order</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Shipping Details -->
+            </div>
+        </div>
+    </section>
+    <!-- end order item & shipping details-->
+
+    <!-- footer -->
+    <footer id="footer" class="footer p-5">
+        <div class="container h-100">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-8 col-md-4 col-lg-3 col-xl-2">
+                    <h5 class="logo-white text-uppercase text-center">bag-pack</h5>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center">
+                <div class="col-6 col-md-10 col-lg-6 text-center">
+                    <ul class="navbar-nav navbar-expand-md">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white px-0 px-md-3">Team Developer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white px-0 px-md-3">Terms And Condition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white px-0 px-md-3">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white px-0 px-md-3">Faq's</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3 justify-content-center">
+                <div class="col-8 text-center">
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-facebook-square text-white mx-2" style="font-size:24px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gungbhaskar4/" class="text-decoration-none">
+                        <i class="fab fa-instagram text-white mx-2" style="font-size:24px;"></i>
+                    </a>
+                    <a href="https://github.com/gungbhaskar4" class="text-decoration-none">
+                        <i class="fab fa-github text-white mx-2" style="font-size:24px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <p style="font-size: 14px;">Web Design By Agungbhaskar4</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- endfooter -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>
