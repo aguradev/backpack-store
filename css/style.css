@@ -294,6 +294,16 @@ nav .navbar-nav li a {
   border-radius: 30px;
 }
 
+.single-product .gallery-product {
+  width: 360px;
+  margin: auto;
+}
+
+.single-product .gallery-product img {
+  width: 80px;
+  height: 80px;
+}
+
 .single-product .btn-product-submit .btn {
   margin: 16px 0;
 }
